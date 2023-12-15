@@ -153,7 +153,7 @@ group :test, :development do
   gem "certified", require: false
   gem "fabrication", require: false
   gem "mocha", require: false
-
+  gem 'openssl', '~> 3.2.0'
   gem "rb-fsevent", require: RUBY_PLATFORM =~ /darwin/i ? "rb-fsevent" : false
 
   gem "rspec-rails"
