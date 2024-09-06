@@ -89,7 +89,7 @@ module Discourse
 
     # tiny file needed by site settings
     require "highlight_js"
-
+    config.api_only = true
     config.load_defaults 6.1
     config.active_record.cache_versioning = false # our custom cache class doesn’t support this
     config.action_controller.forgery_protection_origin_check = false
